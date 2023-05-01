@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  profile = "akshay"
+ 
 }
 resource "aws_instance" "my_inst" {
     ami = "ami-007855ac798b5175e"
